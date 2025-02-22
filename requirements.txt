@@ -1,0 +1,5 @@
+pillow
+onnxruntime
+huggingface-hub
+pandas
+numpy
