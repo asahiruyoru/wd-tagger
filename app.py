@@ -102,6 +102,7 @@ class Predictor:
     def __init__(self):
         self.model_target_size = None
         self.last_loaded_repo = None
+        self.model = None
 
     def download_model(self, model_repo):
         csv_path = huggingface_hub.hf_hub_download(
