@@ -130,6 +130,7 @@ class Predictor:
         self.general_indexes = sep_tags[2]
         self.character_indexes = sep_tags[3]
 
+        del self.model
         model = rt.InferenceSession(model_path)
         _, height, width, _ = model.get_inputs()[0].shape
         self.model_target_size = height
