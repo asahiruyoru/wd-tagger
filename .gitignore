@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.lnk
+models/
+app_v0.py
+wd-tagger.bat
